@@ -16,6 +16,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "./build"),
     },
+    historyApiFallback: true,
     port: SERVER_3_PORT,
   },
   module: {
