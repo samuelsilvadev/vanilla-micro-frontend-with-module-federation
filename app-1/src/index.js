@@ -1,1 +1,3 @@
-console.log("started app 1");
+import Users from "./pages/users";
+
+new Users().render();
