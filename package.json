@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-micro-frontend-with-module-federation",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelsilvadev/vanilla-micro-frontend-with-module-federation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelsilvadev/vanilla-micro-frontend-with-module-federation/issues"
+  },
+  "homepage": "https://github.com/samuelsilvadev/vanilla-micro-frontend-with-module-federation#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "prettier": {}
+}
