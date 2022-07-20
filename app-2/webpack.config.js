@@ -17,6 +17,14 @@ module.exports = {
     },
     port: SERVER_2_PORT,
   },
+  module: {
+    rules: [
+      {
+        test: /\.css/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({

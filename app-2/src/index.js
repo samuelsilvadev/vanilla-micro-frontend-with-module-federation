@@ -1,1 +1,3 @@
-console.log("started app 2");
+import Home from "./pages/home";
+
+new Home().render();

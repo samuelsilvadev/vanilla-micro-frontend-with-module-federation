@@ -1,0 +1,9 @@
+.app-2-hero {
+    background-color: tomato;
+    border: 5px solid black;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
