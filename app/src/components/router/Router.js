@@ -10,7 +10,7 @@ class Router {
   }
 
   #renderLoading() {
-    document.querySelector("body").innerHTML = this.#createLoading();
+    document.querySelector("body").innerHTML += this.#createLoading();
   }
 
   #removeLoading() {
