@@ -1,0 +1,15 @@
+.app-navigation-list {
+    background-color: greenyellow ;
+    border: 5px solid black;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 50px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

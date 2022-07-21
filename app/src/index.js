@@ -1,10 +1,11 @@
+import Navigation from "./components/navigation/Navigation";
 import Router from "./components/router/Router";
 
 console.log("app shell is running...");
 
 const ROUTES_CONFIG = [
   {
-    path: "/home",
+    path: "/",
     componentFn: () =>
       import("home/Home").then((module) => {
         const Home = module.default;
@@ -21,5 +22,12 @@ const ROUTES_CONFIG = [
   },
 ];
 
+const navigation = new Navigation();
+navigation.render({
+  items: [
+    { name: "Home", link: "/" },
+    { name: "Users", link: "/users" },
+  ],
+});
 const router = new Router();
 router.render({ config: ROUTES_CONFIG });
